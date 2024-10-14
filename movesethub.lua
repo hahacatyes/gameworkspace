@@ -38,10 +38,31 @@ tab.newButton("Dio Moveset", "Use Hero Hunter.", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Medley-Taboritsky/RobloxScripting/refs/heads/main/DIO_Garou_TSB"))()
 end)
 
-tab.newButton("Jester Moveset", "Use Hero Hunter.", function()
+tab.newButton("Reaper Moveset", "Any Moveset.", function()
+getgenv().Music = false
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/main/APOPHENIA.lua"))()
+end)
+
+tab.newButton("Gojo Moveset 2", "Use The Strongest Hero.", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/main/Latest.lua"))()
+end)
+
+tab.newButton("Kung Fu Panda Moveset", "Use Hero Hunter.", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/DqXUTANt"))()
+end)
+
+tab.newButton("Deku Moveset", "Use The Strongest Hero.", function()
+loadstring(game:HttpGet("https://pastefy.app/MNg2zcxz/raw"))()
+end)
+
+tab.newButton("Toji Moveset", "Use Sonic.", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Medley-Taboritsky/RobloxScripting/refs/heads/main/DIO_Garou_TSB"))()
+end)
+
+tab.newButton("Arcaura Moveset", "Use Hero Hunter.", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/ARCAURA.lua"))()
 end)
 
-tab.newButton("Jester Moveset", "Use Hero Hunter.", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/ARCAURA.lua"))()
+tab.newButton("KJ Moveset", "Client but super cool.", function()
+loadstring(game:HttpGet("https://voidy.lol/KJkeynewtemporary.lua",true))()
 end)
