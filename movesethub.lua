@@ -14,6 +14,10 @@ end)
 
 local tab = DrRayLibrary.newTab("Movesets", "15011943566")
 
+tab.newButton("KJ Moveset", "Client but super cool.", function()
+loadstring(game:HttpGet("https://voidy.lol/KJkeynewtemporary.lua",true))()
+end)
+
 tab.newButton("Sukuna Moveset", "Use Blade Master.", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/zyrask/Nexus-Base/main/atomic-blademaster%20to%20sukuna"))()
 end)
@@ -63,6 +67,20 @@ tab.newButton("Arcaura Moveset", "Use Hero Hunter.", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/ARCAURA.lua"))()
 end)
 
-tab.newButton("KJ Moveset", "Client but super cool.", function()
+tab.newButton("Goku Moveset", "Use Hero Hunter.", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JayXSama/ray-makk/main/GOKUTSB"))()
+end)
+
+tab.newButton("Sonic Moveset", "Any Moveset?", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/7V1mUBtQ"))()
+end)
+
+local tab = DrRayLibrary.newTab("Other Movesets", "")
+
+
+tab.newButton("Garou To Suiryu", "FE, Use Hero Hunter.", function()
 loadstring(game:HttpGet("https://voidy.lol/KJkeynewtemporary.lua",true))()
 end)
+--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
