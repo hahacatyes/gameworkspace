@@ -12,7 +12,7 @@ tab.newButton("Discord Server", "Copies the discord server link.", function()
 setclipboard("https://discord.gg/Vmu9rUKn9h")
 end)
 
-local tab = DrRayLibrary.newTab("Movesets", "rbxassetid://14116544921")
+local tab = DrRayLibrary.newTab("Movesets", "rbxassetid://15872631749")
 
 tab.newButton("Sukuna Moveset - Atomic BladeMaster", "Copies the owner's", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/zyrask/Nexus-Base/main/atomic-blademaster%20to%20sukuna"))()
