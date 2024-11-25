@@ -33,3 +33,15 @@ local Window = Rayfield:CreateWindow({
       Key = {"Z3N0N_PR3M321"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
+
+Rayfield:Notify({
+   Title = "Welcome User!",
+   Content = "Succesfully loaded FE KJ!",
+   Duration = 6.5,
+   Image = "rewind",
+})
+
+local Label = Tab:CreateLabel("Script loaded, you can close this menu!", "dna-off")
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Repcoders/voidy.lol/refs/heads/main/html1.lua",true))()
