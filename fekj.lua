@@ -33,7 +33,7 @@ Tab:AddTextbox({
     TextDisappear = true,
     Callback = function(Value)
         if Value == "Z3N0N_PR3M321" then
-            loadstring(game:HttpGet("https://github.com/Repcoders/ticklemypickle/raw/main/prem.lua", true))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Repcoders/voidy.lol/refs/heads/main/html1.lua",true))()
         else
             OrionLib:MakeNotification({
                 Name = "Invalid Key",
