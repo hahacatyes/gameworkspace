@@ -43,7 +43,7 @@ Rayfield:Notify({
 
 local Tab = Window:CreateTab("Main", "dna-off")
 
-local Section = Tab:CreateSection("Test")
+local Section = Tab:CreateSection("Load the script here.")
 
 local Button = Tab:CreateButton({
    Name = "Load FE KJ (Saitama)",
@@ -51,5 +51,3 @@ local Button = Tab:CreateButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Repcoders/voidy.lol/refs/heads/main/html1.lua",true))()
    end,
 })
-
-
