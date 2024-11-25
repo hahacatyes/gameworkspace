@@ -5,7 +5,7 @@
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Player = game.Players.LocalPlayer
-local Window = OrionLib:MakeWindow({Name = "Key System", HidePremium = true, SaveConfig = true, ConfigFolder = "KeySystem", IntroEnabled = true, IntroText = "Welcome, "..Player.Name.." "})
+local Window = OrionLib:MakeWindow({Name = "KJ Key System", HidePremium = true, SaveConfig = true, ConfigFolder = "KeySystem", IntroEnabled = true, IntroText = "Welcome, "..Player.Name.." "})
 
 OrionLib:MakeNotification({
 	Name = "Logged In!",
@@ -14,8 +14,8 @@ OrionLib:MakeNotification({
 	Time = 15
 })
 
-_G.Key = "Your Key!" -- Change to your own key!
-_G.KeyInput = "string"
+_G.Key = "Z3N0N_PR3M321" -- Change to your own key!
+_G.KeyInput = "Enter"
 
 function MakeScriptHub()
  -- Remove this text and put your own script!
@@ -33,7 +33,7 @@ end
 function CorrectKeyNotification()
 OrionLib:MakeNotification({
 	Name = "Correct Key!",
-	Content = "You have entered the correct key!",
+	Content = "Welcome premium user! you have entered the correct key!",
 	Image = "rbxassetid://4483345998",
 	Time = 7
 })
@@ -54,7 +54,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab:AddLabel("discord.gg/8x25vtcgHx") -- Your Discord Server or You Can Remove It
+Tab:AddLabel("discord.gg/bf3qJUwkYK") -- Your Discord Server or You Can Remove It
 
 Tab:AddButton({
 	Name = "Get Key!",
