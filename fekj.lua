@@ -41,7 +41,15 @@ Rayfield:Notify({
    Image = "rewind",
 })
 
-local Label = Tab:CreateLabel("Script loaded, you can close this menu!", "dna-off")
+local Tab = Window:CreateTab("Main", "dna-off")
 
+local Section = Tab:CreateSection("Test")
 
+local Button = Tab:CreateButton({
+   Name = "Load FE KJ (Saitama)",
+   Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Repcoders/voidy.lol/refs/heads/main/html1.lua",true))()
+   end,
+})
+
+
