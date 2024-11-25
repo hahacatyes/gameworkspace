@@ -48,6 +48,6 @@ local Section = Tab:CreateSection("Load the script here.")
 local Button = Tab:CreateButton({
    Name = "Load FE KJ (Saitama)",
    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Repcoders/voidy.lol/refs/heads/main/html1.lua",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Repcoders/voidy.lol/refs/heads/main/html2.lua",true))()
    end,
 })
