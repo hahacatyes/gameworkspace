@@ -1,7 +1,7 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 local Window = OrionLib:MakeWindow({
-    Name = "Zenon Premium Key System",
+    Name = "FE KJ Premium Key System",
     HidePremium = false,
     SaveConfig = true,
     ConfigFolder = "ZenonPremium"
@@ -13,11 +13,11 @@ local Tab = Window:MakeTab({
     PremiumOnly = false
 })
 
-Tab:AddParagraph("Premium Access", "🎉 Enter the key you received from Discord to gain access! 🎉\n\nEnsure the key is typed correctly to avoid errors. If you haven’t received a key yet, click 'Get Key' to join our Discord server.")
+Tab:AddParagraph("KJ FE Premium Access", "🎉 Enter the key you received from Discord to gain access! 🎉\n\nEnsure the key is typed correctly to avoid errors. If you haven’t received a key yet, click 'Get Key' to join our Discord server.")
 Tab:AddButton({
     Name = "Get Key",
     Callback = function()
-        setclipboard("https://discord.gg/Vmu9rUKn9h")
+        setclipboard("https://discord.gg/bf3qJUwkYK")
         OrionLib:MakeNotification({
             Name = "Discord Invite",
             Content = "Discord invite link copied to clipboard. Join to get your key!",
