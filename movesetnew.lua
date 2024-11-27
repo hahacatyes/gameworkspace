@@ -43,7 +43,7 @@ Rayfield:Notify({
    Image = "rewind",
 })
 
-local Tab = Window:CreateTab("Information", "dna-off")
+local Tab = Window:CreateTab("Information", "info")
 
 local Section = Tab:CreateSection("Information about the script..")
 
@@ -51,6 +51,14 @@ local Button = Tab:CreateButton({
     Name = "Owner: voidyyy0 (Copies the owner's username)",
     Callback = function()
         setclipboard("voidyyy0")
+
+Rayfield:Notify({
+   Title = "Rayfield!",
+   Content = "Copied owner's discord username successfully.",
+   Duration = 6.5,
+   Image = "check",
+})
+
     end,
 })
 
@@ -59,10 +67,18 @@ local Button = Tab:CreateButton({
     Name = "Discord Server (Link copied for reports and bugs)",
     Callback = function()
         setclipboard("https://discord.gg/Vmu9rUKn9h")
+
+Rayfield:Notify({
+   Title = "Rayfield!",
+   Content = "Copied discord link successfully.",
+   Duration = 6.5,
+   Image = "check",
+})
+
     end,
 })
 
-local Tab = Window:CreateTab("Movesets", "dna-off")
+local Tab = Window:CreateTab("Movesets", "book")
 
 local Section = Tab:CreateSection("Movesets to load..")
 
