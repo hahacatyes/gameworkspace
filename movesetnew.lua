@@ -55,9 +55,9 @@ local Tab = Window:CreateTab("Main", "dna-off")
 local Section = Tab:CreateSection("Movesets to load..")
 
 local Button = Tab:CreateButton({
-    Name = "KJ Moveset (Client but super cool)",
+    Name = "Geto Moveset",
     Callback = function()
-        loadstring(game:HttpGet("https://voidy.lol/KJkeynewtemporary.lua", true))()
+        loadstring(game:HttpGet("https://paste.ee/r/70OTE"))()
     end,
 })
 
