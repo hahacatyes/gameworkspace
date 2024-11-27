@@ -1,5 +1,14 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
+   setclipboard("https://discord.gg/gCTb2YbHaY")
+
+Rayfield:Notify({
+   Title = "Welcome!",
+   Content = "Copied the discord link, join for key!",
+   Duration = 6.5,
+   Image = "clipboard-check",
+})
+
 local Window = Rayfield:CreateWindow({
    Name = "Zenon Moveset Hub",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
@@ -21,15 +30,6 @@ local Window = Rayfield:CreateWindow({
       Invite = "bf3qJUwkYK", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
       RememberJoins = false -- Set this to false to make them join the discord every time they load it up
    },
-
-   setclipboard("https://discord.gg/gCTb2YbHaY")
-
-   Rayfield:Notify({
-   Title = "Welcome!",
-   Content = "Copied the discord link, join for key!",
-   Duration = 6.5,
-   Image = "clipboard-check",
-})
 
    KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
