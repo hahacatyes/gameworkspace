@@ -53,7 +53,7 @@ local Button = Tab:CreateButton({
         setclipboard("voidyyy0")
 
 Rayfield:Notify({
-   Title = "Rayfield!",
+   Title = "Rayfield",
    Content = "Copied owner's discord username successfully.",
    Duration = 6.5,
    Image = "check",
@@ -69,7 +69,7 @@ local Button = Tab:CreateButton({
         setclipboard("https://discord.gg/Vmu9rUKn9h")
 
 Rayfield:Notify({
-   Title = "Rayfield!",
+   Title = "Rayfield",
    Content = "Copied discord link successfully.",
    Duration = 6.5,
    Image = "check",
@@ -81,13 +81,6 @@ Rayfield:Notify({
 local Tab = Window:CreateTab("Movesets", "book")
 
 local Section = Tab:CreateSection("Movesets to load..")
-
-local Button = Tab:CreateButton({
-    Name = "Geto Moveset",
-    Callback = function()
-        loadstring(game:HttpGet("https://paste.ee/r/70OTE"))()
-    end,
-})
 
 -- Sukuna Moveset button
 local Button = Tab:CreateButton({
