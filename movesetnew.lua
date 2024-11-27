@@ -22,6 +22,15 @@ local Window = Rayfield:CreateWindow({
       RememberJoins = false -- Set this to false to make them join the discord every time they load it up
    },
 
+   setclipboard("https://discord.gg/gCTb2YbHaY")
+
+   Rayfield:Notify({
+   Title = "Welcome!",
+   Content = "Copied the discord link, join for key!",
+   Duration = 6.5,
+   Image = "clipboard-check",
+})
+
    KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
       Title = "Access Script",
