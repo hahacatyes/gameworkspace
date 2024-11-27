@@ -1,13 +1,6 @@
+setclipboard("https://discord.gg/gCTb2YbHaY")
+
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
-
-   setclipboard("https://discord.gg/gCTb2YbHaY")
-
-Rayfield:Notify({
-   Title = "Welcome!",
-   Content = "Copied the discord link, join for key!",
-   Duration = 6.5,
-   Image = "clipboard-check",
-})
 
 local Window = Rayfield:CreateWindow({
    Name = "Zenon Moveset Hub",
@@ -50,7 +43,26 @@ Rayfield:Notify({
    Image = "rewind",
 })
 
-local Tab = Window:CreateTab("Main", "dna-off")
+local Tab = Window:CreateTab("Information", "dna-off")
+
+local Section = Tab:CreateSection("Information about the script..")
+
+local Button = Tab:CreateButton({
+    Name = "Owner: voidyyy0 (Copies the owner's username)",
+    Callback = function()
+        setclipboard("voidyyy0")
+    end,
+})
+
+-- Discord Server button
+local Button = Tab:CreateButton({
+    Name = "Discord Server (Link copied for reports and bugs)",
+    Callback = function()
+        setclipboard("https://discord.gg/Vmu9rUKn9h")
+    end,
+})
+
+local Tab = Window:CreateTab("Movesets", "dna-off")
 
 local Section = Tab:CreateSection("Movesets to load..")
 
