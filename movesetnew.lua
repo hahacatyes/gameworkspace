@@ -43,11 +43,111 @@ Rayfield:Notify({
 
 local Tab = Window:CreateTab("Main", "dna-off")
 
-local Section = Tab:CreateSection("Load the script here.")
+local Section = Tab:CreateSection("Movesets to load..")
 
 local Button = Tab:CreateButton({
-   Name = "Load FE KJ (Saitama)",
+   Name = "KJ Moveset",
    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Repcoders/voidy.lol/refs/heads/main/html2.lua",true))()
+      loadstring(game:HttpGet("https://voidy.lol/KJkeynewtemporary.lua", true))()
    end,
 })
+
+local Button = Tab:CreateButton({
+   Name = "Sukuna Moveset",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/zyrask/Nexus-Base/main/atomic-blademaster%20to%20sukuna"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Unsealed Gojo Moveset",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/zF6Rdky0"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Sans Moveset",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Qaiddanial2904/ROBLOX-FREAKY-GOJO-REAL/refs/heads/main/SANS%20%5BREDACTED%5D"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Child Emperor Moveset",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/CaXFZ2S2"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Jun Moveset",
+   Callback = function()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Tp%20exploit%20saitama%20to%20jun'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Dio Moveset",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Medley-Taboritsky/RobloxScripting/refs/heads/main/DIO_Garou_TSB"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Reaper Moveset",
+   Callback = function()
+      getgenv().Music = false
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/main/APOPHENIA.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Gojo Moveset 2",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/main/Latest.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Kung Fu Panda Moveset",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/DqXUTANt"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Deku Moveset",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastefy.app/MNg2zcxz/raw"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Toji Moveset",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Medley-Taboritsky/RobloxScripting/refs/heads/main/DIO_Garou_TSB"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Arcaura Moveset",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/ARCAURA.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Goku Moveset",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/JayXSama/ray-makk/main/GOKUTSB"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Sonic Moveset",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/7V1mUBtQ"))()
+   end,
+})
+
