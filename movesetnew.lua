@@ -194,3 +194,17 @@ local Button = Tab:CreateButton({
         loadstring(game:HttpGet("https://pastebin.com/raw/7V1mUBtQ"))()
     end,
 })
+
+local Button = Tab:CreateButton({
+    Name = "Star Glitcher (Hero Hunter or Any?)",
+    Callback = function()
+loadstring(game:HttpGet("https://paste.ee/r/mmQkO"))()
+    end,
+})
+
+local Button = Tab:CreateButton({
+    Name = "Diddy Moveset 💀 (Use Hero Hunter)",
+    Callback = function()
+loadstring(game:HttpGet("https://paste.ee/r/gKC8V"))() 
+    end,
+})
