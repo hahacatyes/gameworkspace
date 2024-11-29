@@ -196,7 +196,7 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-    Name = "Star Glitcher (Hero Hunter or Any?)",
+    Name = "Star Glitcher (Use Hero Hunter)",
     Callback = function()
 loadstring(game:HttpGet("https://paste.ee/r/mmQkO"))()
     end,
