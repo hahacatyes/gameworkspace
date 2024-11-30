@@ -256,10 +256,3 @@ local Button = Tab:CreateButton({
 loadstring(game:HttpGet("https://paste.ee/r/0yYkO"))()
     end,
 })
-
-local Button = Tab:CreateButton({
-    Name = "Okarun Moveset (Use Strongest Hero)",
-    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FlowersTsb/Moveset/refs/heads/main/FlowersOkarun"))()
-    end,
-})
