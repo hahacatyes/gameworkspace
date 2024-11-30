@@ -208,3 +208,58 @@ local Button = Tab:CreateButton({
 loadstring(game:HttpGet("https://paste.ee/r/gKC8V"))() 
     end,
 })
+
+local Button = Tab:CreateButton({
+    Name = "Boros Moveset (Use Strongest Hero)",
+    Callback = function()
+loadstring(game:HttpGet"https://paste.ee/r/XPIH5")()
+    end,
+})
+local Button = Tab:CreateButton({
+    Name = "Hakari Moveset (Use Strongest Hero)",
+    Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/eEDYWj8p"))()
+    end,
+})
+local Button = Tab:CreateButton({
+    Name = "Soul God Moveset (Use Atomic Samurai)",
+    Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Soul-God-Moveset-23392",true))()
+    end,
+})
+
+local Button = Tab:CreateButton({
+    Name = "APOPHENIA Moveset (Metal Bat And Any Character)",
+    Callback = function()
+getgenv().Music = false 
+--Setting this to false usually fixes most executors
+--also it helps load time a little bit
+getgenv().AttackQuality = 'High'
+--Set to Low,High
+
+ getgenv().ConstantSpeed = false
+--if you want your speed to be constant
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/main/APOPHENIA.lua"))()
+    end,
+})
+
+local Button = Tab:CreateButton({
+    Name = "VOLTA Moveset (Use Sonic)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/VOLTA.lua"))()
+    end,
+})
+
+local Button = Tab:CreateButton({
+    Name = "GT Chara (Use Strongest Hero)",
+    Callback = function()
+loadstring(game:HttpGet("https://paste.ee/r/0yYkO"))()
+    end,
+})
+
+local Button = Tab:CreateButton({
+    Name = "Okarun Moveset (Use Strongest Hero)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FlowersTsb/Moveset/refs/heads/main/FlowersOkarun"))()
+    end,
+})
