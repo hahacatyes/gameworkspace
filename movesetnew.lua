@@ -40,7 +40,7 @@ Rayfield:Notify({
    Title = "Welcome User!",
    Content = "Succesfully loaded UI!",
    Duration = 6.5,
-   Image = "rewind",
+   Image = "check",
 })
 
 local Tab = Window:CreateTab("Information", "info")
@@ -254,5 +254,22 @@ local Button = Tab:CreateButton({
     Name = "GT Chara (Use Strongest Hero)",
     Callback = function()
 loadstring(game:HttpGet("https://paste.ee/r/0yYkO"))()
+    end,
+})
+
+local Tab = Window:CreateTab("Other Scripts", "circle-help")
+local Section = Tab:CreateSection("Other scripts you can load..")
+
+local Button = Tab:CreateButton({
+    Name = "Infinite Yield",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+    end,
+})
+
+local Button = Tab:CreateButton({
+    Name = "Infinite Yield",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/refs/heads/main/Source.lua", true))()
     end,
 })
