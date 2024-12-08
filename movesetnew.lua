@@ -47,18 +47,41 @@ local Tab = Window:CreateTab("Information", "info")
 
 local Section = Tab:CreateSection("Information about the script..")
 
+local Paragraph = Tab:CreateParagraph({Title = "Information", Content = "FPS: Calculating...\nServer Region: Retrieving...\nPing: Calculating..."})
+
+
+local playerName = game.Players.LocalPlayer.Name
+local GreetingParagraph = Tab:CreateParagraph({
+    Title = "Welcome!",
+    Content = "Hello!, " .. playerName .. "! We're glad you're using our script."
+})
+
+spawn(function()
+    while true do
+        local fps = math.floor(1 / game:GetService("RunService").RenderStepped:Wait())
+        local ping = game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString() .. "ms"
+        local serverRegion = game:GetService("LocalizationService").RobloxLocaleId or "Unknown"
+
+        Paragraph:Set({
+            Title = "Information",
+            Content = "FPS: " .. fps .. "\nServer Region: " .. serverRegion .. "\nPing: " .. ping
+        })
+
+        wait(1)
+    end
+end)
+
+
 local Button = Tab:CreateButton({
     Name = "Owner: voidyyy0 (Copies the owner's username)",
     Callback = function()
         setclipboard("voidyyy0")
-
 Rayfield:Notify({
    Title = "Rayfield",
    Content = "Copied owner's discord username successfully.",
    Duration = 6.5,
    Image = "check",
 })
-
     end,
 })
 
@@ -145,6 +168,13 @@ local Button = Tab:CreateButton({
     Name = "Dio Moveset (Use Hero Hunter)",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Medley-Taboritsky/RobloxScripting/refs/heads/main/DIO_Garou_TSB"))()
+    end,
+})
+
+local Button = Tab:CreateButton({
+    Name = "Okarun Moveset (Use Hero Hunter)",
+    Callback = function()
+loadstring(game:HttpGet"https://paste.ee/r/Pn4oj")()
     end,
 })
 
