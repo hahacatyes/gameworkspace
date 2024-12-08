@@ -3,7 +3,7 @@ setclipboard("https://discord.gg/gCTb2YbHaY")
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "Zenon Moveset Hub",
+   Name = "Seraph Moveset Hub",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Moveset Hub",
    LoadingSubtitle = "By voidyyy0",
@@ -78,19 +78,10 @@ Rayfield:Notify({
     end,
 })
 
-local Tab = Window:CreateTab("Movesets", "book")
+local Tab = Window:CreateTab("Strongest Hero", "book")
 
-local Section = Tab:CreateSection("Movesets to load..")
+local Section = Tab:CreateSection("Custom Movesets that use strongest hero.")
 
--- Sukuna Moveset button
-local Button = Tab:CreateButton({
-    Name = "Sukuna Moveset (Use Blade Master)",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/zyrask/Nexus-Base/main/atomic-blademaster%20to%20sukuna"))()
-    end,
-})
-
--- Unsealed Gojo Moveset button
 local Button = Tab:CreateButton({
     Name = "Unsealed Gojo Moveset (Use Saitama)",
     Callback = function()
@@ -98,15 +89,6 @@ local Button = Tab:CreateButton({
     end,
 })
 
--- Sans Moveset button
-local Button = Tab:CreateButton({
-    Name = "Sans Moveset (Use Wild Psychic)",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Qaiddanial2904/ROBLOX-FREAKY-GOJO-REAL/refs/heads/main/SANS%20%5BREDACTED%5D"))()
-    end,
-})
-
--- Child Emperor Moveset button
 local Button = Tab:CreateButton({
     Name = "Child Emperor Moveset (Use The Strongest Hero)",
     Callback = function()
@@ -122,40 +104,6 @@ local Button = Tab:CreateButton({
     end,
 })
 
--- Dio Moveset button
-local Button = Tab:CreateButton({
-    Name = "Dio Moveset (Use Hero Hunter)",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Medley-Taboritsky/RobloxScripting/refs/heads/main/DIO_Garou_TSB"))()
-    end,
-})
-
--- Reaper Moveset button
-local Button = Tab:CreateButton({
-    Name = "Reaper Moveset (Any Moveset)",
-    Callback = function()
-        getgenv().Music = false
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/main/APOPHENIA.lua"))()
-    end,
-})
-
--- Gojo Moveset 2 button
-local Button = Tab:CreateButton({
-    Name = "Gojo Moveset 2 (Use The Strongest Hero)",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/main/Latest.lua"))()
-    end,
-})
-
--- Kung Fu Panda Moveset button
-local Button = Tab:CreateButton({
-    Name = "Kung Fu Panda Moveset (Use Hero Hunter)",
-    Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/DqXUTANt"))()
-    end,
-})
-
--- Deku Moveset button
 local Button = Tab:CreateButton({
     Name = "Deku Moveset (Use The Strongest Hero)",
     Callback = function()
@@ -163,9 +111,38 @@ local Button = Tab:CreateButton({
     end,
 })
 
--- Toji Moveset button
 local Button = Tab:CreateButton({
-    Name = "Toji Moveset (Use Sonic)",
+    Name = "Boros Moveset (Use Strongest Hero)",
+    Callback = function()
+loadstring(game:HttpGet"https://paste.ee/r/XPIH5")()
+    end,
+})
+local Button = Tab:CreateButton({
+    Name = "Hakari Moveset (Use Strongest Hero)",
+    Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/eEDYWj8p"))()
+    end,
+})
+local Button = Tab:CreateButton({
+    Name = "Gojo Moveset 2 (Use The Strongest Hero)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/main/Latest.lua"))()
+    end,
+})
+
+local Button = Tab:CreateButton({
+    Name = "GT Chara (Use Strongest Hero)",
+    Callback = function()
+loadstring(game:HttpGet("https://paste.ee/r/0yYkO"))()
+    end,
+})
+
+local Tab = Window:CreateTab("Hero Hunter", "book")
+
+local Section = Tab:CreateSection("Custom Movesets that use hero hunter.")
+
+local Button = Tab:CreateButton({
+    Name = "Dio Moveset (Use Hero Hunter)",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Medley-Taboritsky/RobloxScripting/refs/heads/main/DIO_Garou_TSB"))()
     end,
@@ -176,22 +153,6 @@ local Button = Tab:CreateButton({
     Name = "Arcaura Moveset (Use Hero Hunter)",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/ARCAURA.lua"))()
-    end,
-})
-
--- Goku Moveset button
-local Button = Tab:CreateButton({
-    Name = "Goku Moveset (Use Hero Hunter)",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/JayXSama/ray-makk/main/GOKUTSB"))()
-    end,
-})
-
--- Sonic Moveset button
-local Button = Tab:CreateButton({
-    Name = "Sonic Moveset (Any Moveset?)",
-    Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/7V1mUBtQ"))()
     end,
 })
 
@@ -210,21 +171,70 @@ loadstring(game:HttpGet("https://paste.ee/r/gKC8V"))()
 })
 
 local Button = Tab:CreateButton({
-    Name = "Boros Moveset (Use Strongest Hero)",
+    Name = "Goku Moveset (Use Hero Hunter)",
     Callback = function()
-loadstring(game:HttpGet"https://paste.ee/r/XPIH5")()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JayXSama/ray-makk/main/GOKUTSB"))()
     end,
 })
+
+
+local Tab = Window:CreateTab("Deadly Ninja", "book")
+
+local Section = Tab:CreateSection("Custom Movesets that use Deadly Ninja..")
+
 local Button = Tab:CreateButton({
-    Name = "Hakari Moveset (Use Strongest Hero)",
+    Name = "VOLTA Moveset (Use Sonic)",
     Callback = function()
-loadstring(game:HttpGet("https://pastebin.com/raw/eEDYWj8p"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/VOLTA.lua"))()
     end,
 })
+
+local Button = Tab:CreateButton({
+    Name = "Toji Moveset (Use Sonic)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Medley-Taboritsky/RobloxScripting/refs/heads/main/DIO_Garou_TSB"))()
+    end,
+})
+
+
+
+local Tab = Window:CreateTab("Blade Master", "book")
+
+local Section = Tab:CreateSection("Custom Movesets that use Blade Master..")
+
 local Button = Tab:CreateButton({
     Name = "Soul God Moveset (Use Atomic Samurai)",
     Callback = function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Soul-God-Moveset-23392",true))()
+    end,
+})
+
+local Button = Tab:CreateButton({
+    Name = "Sukuna Moveset (Use Blade Master)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/zyrask/Nexus-Base/main/atomic-blademaster%20to%20sukuna"))()
+    end,
+})
+
+local Tab = Window:CreateTab("Wild Psychic", "book")
+
+local Section = Tab:CreateSection("Custom Movesets that use Wild Psychic..")
+
+local Button = Tab:CreateButton({
+    Name = "Sans Moveset (Use Wild Psychic)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Qaiddanial2904/ROBLOX-FREAKY-GOJO-REAL/refs/heads/main/SANS%20%5BREDACTED%5D"))()
+    end,
+})
+
+local Tab = Window:CreateTab("Any Moveset", "book")
+
+local Section = Tab:CreateSection("Custom Movesets that support any moveset being used..")
+
+local Button = Tab:CreateButton({
+    Name = "Sonic Moveset (Any Character?)",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/7V1mUBtQ"))()
     end,
 })
 
@@ -240,20 +250,6 @@ getgenv().AttackQuality = 'High'
  getgenv().ConstantSpeed = false
 --if you want your speed to be constant
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/main/APOPHENIA.lua"))()
-    end,
-})
-
-local Button = Tab:CreateButton({
-    Name = "VOLTA Moveset (Use Sonic)",
-    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/VOLTA.lua"))()
-    end,
-})
-
-local Button = Tab:CreateButton({
-    Name = "GT Chara (Use Strongest Hero)",
-    Callback = function()
-loadstring(game:HttpGet("https://paste.ee/r/0yYkO"))()
     end,
 })
 
