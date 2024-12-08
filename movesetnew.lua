@@ -26,9 +26,9 @@ local Window = Rayfield:CreateWindow({
 
    KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
-      Title = "Access Script",
-      Subtitle = "Key System",
-      Note = "Join the discord to get the key, link has been copied.", -- Use this to tell the user how to get a key
+      Title = "Key System",
+      Subtitle = "Hello and welcome!",
+      Note = "Join the discord to get the key, link has been copied. There are no ads.", -- Use this to tell the user how to get a key
       FileName = "KeySave", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
       SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
@@ -207,6 +207,21 @@ local Button = Tab:CreateButton({
     end,
 })
 
+local Button = Tab:CreateButton({
+    Name = "Kizaru Moveset (Use Hero Hunter)",
+    Callback = function()
+loadstring(game:HttpGet("https://paste.ee/r/NPnfk"))()
+    end,
+})
+
+local Button = Tab:CreateButton({
+    Name = "Humbled's GF Moveset (Use Hero Hunter)",
+    Callback = function()
+getgenv().color = Color3.new(1, 0, 0) -- customize colour vfx 
+
+loadstring(game:HttpGet("https://paste.ee/r/7FuWC"))()
+    end,
+})
 
 local Tab = Window:CreateTab("Deadly Ninja", "book")
 
