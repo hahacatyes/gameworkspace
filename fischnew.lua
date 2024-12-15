@@ -106,22 +106,9 @@ local Tab = Window:CreateTab("Keyless", "lock")
 local Section = Tab:CreateSection("These are hubs and scripts that are keyless for fisch.")
 
 local Button = Tab:CreateButton({
-    Name = "Speed Hub X - Keyless",
+    Name = "Speed Hub X - Keyless - OP",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
-    end,
-})
-
-local Button = Tab:CreateButton({
-    Name = "CPP Hub - Keyless",
-    Callback = function()
-loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-KEYLESS-Fisch-Script-22263",true))()
-    end,
-})
-local Button = Tab:CreateButton({
-    Name = "Infinite Ware - Keyless",
-    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Kitler69/InfiniteWare/refs/heads/main/Fisch",true))()
     end,
 })
 local Button = Tab:CreateButton({
