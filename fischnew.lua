@@ -3,9 +3,9 @@ setclipboard("https://discord.gg/gCTb2YbHaY")
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "Seraph Moveset Hub",
+   Name = "Seraph Fisch Hub",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
-   LoadingTitle = "Moveset Hub",
+   LoadingTitle = "Seraph Fisch Hub",
    LoadingSubtitle = "By voidyyy0",
    Theme = "Amethyst", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
@@ -15,7 +15,7 @@ local Window = Rayfield:CreateWindow({
    ConfigurationSaving = {
       Enabled = true,
       FolderName = nil, -- Create a custom folder for your hub/game
-      FileName = "KJ2"
+      FileName = "fischretigga"
    },
 
    Discord = {
@@ -26,7 +26,7 @@ local Window = Rayfield:CreateWindow({
 
    KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
-      Title = "Key System",
+      Title = "Seraph Key System",
       Subtitle = "Hello and welcome!",
       Note = "Join the discord to get the key, link has been copied. There are no ads.", -- Use this to tell the user how to get a key
       FileName = "KeySave", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
@@ -53,7 +53,7 @@ local Paragraph = Tab:CreateParagraph({Title = "Information", Content = "FPS: Ca
 local playerName = game.Players.LocalPlayer.Name
 local GreetingParagraph = Tab:CreateParagraph({
     Title = "Welcome!",
-    Content = "Hello!, " .. playerName .. "! We're glad you're using our script."
+    Content = "Hello!, " .. playerName .. "! We're glad you're using our fisch script."
 })
 
 spawn(function()
@@ -101,202 +101,97 @@ Rayfield:Notify({
     end,
 })
 
-local Tab = Window:CreateTab("Strongest Hero", "book")
+local Tab = Window:CreateTab("Keyless", "lock")
 
-local Section = Tab:CreateSection("Custom Movesets that use strongest hero.")
+local Section = Tab:CreateSection("These are hubs and scripts that are keyless for fisch.")
 
 local Button = Tab:CreateButton({
-    Name = "Unsealed Gojo Moveset (Use Saitama)",
+    Name = "Speed Hub X - Keyless",
     Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/zF6Rdky0"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
     end,
 })
 
 local Button = Tab:CreateButton({
-    Name = "Child Emperor Moveset (Use The Strongest Hero)",
+    Name = "CPP Hub - Keyless",
     Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/CaXFZ2S2"))()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-KEYLESS-Fisch-Script-22263",true))()
+    end,
+})
+local Button = Tab:CreateButton({
+    Name = "Infinite Ware - Keyless",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kitler69/InfiniteWare/refs/heads/main/Fisch",true))()
+    end,
+})
+local Button = Tab:CreateButton({
+    Name = "Rinns Hub - Keyless",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kylosilly/femboyware/refs/heads/main/Fisch.lua"))()
+    end,
+})
+local Button = Tab:CreateButton({
+    Name = "Neuron Hub - Keyless",
+    Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-KEYLESS-Fisch-Script-22263",true))()
     end,
 })
 
--- Jun Moveset button
-local Button = Tab:CreateButton({
-    Name = "Jun Moveset (Use The Strongest Hero)",
-    Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Tp%20exploit%20saitama%20to%20jun'))()
-    end,
-})
+local Tab = Window:CreateTab("Key", "lock-open")
+
+local Section = Tab:CreateSection("These are hubs and scripts that do have a key system and are for fisch.")
 
 local Button = Tab:CreateButton({
-    Name = "Deku Moveset (Use The Strongest Hero)",
+    Name = "Forge Hub - Key",
     Callback = function()
-        loadstring(game:HttpGet("https://pastefy.app/MNg2zcxz/raw"))()
-    end,
-})
-
-local Button = Tab:CreateButton({
-    Name = "Boros Moveset (Use Strongest Hero)",
-    Callback = function()
-loadstring(game:HttpGet"https://paste.ee/r/XPIH5")()
-    end,
-})
-local Button = Tab:CreateButton({
-    Name = "Hakari Moveset (Use Strongest Hero)",
-    Callback = function()
-loadstring(game:HttpGet("https://pastebin.com/raw/eEDYWj8p"))()
-    end,
-})
-local Button = Tab:CreateButton({
-    Name = "Gojo Moveset 2 (Use The Strongest Hero)",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/main/Latest.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/giogio11223/stogenhub/refs/heads/main/release",true))()
     end,
 })
 
 local Button = Tab:CreateButton({
-    Name = "GT Chara (Use Strongest Hero)",
+    Name = "Native Hub - Key",
     Callback = function()
-loadstring(game:HttpGet("https://paste.ee/r/0yYkO"))()
+script_key="";
+(loadstring or load)(game:HttpGet("https://raw.githubusercontent.com/Native-lab/Native/main/loader.lua"))()
     end,
 })
 
-local Tab = Window:CreateTab("Hero Hunter", "book")
-
-local Section = Tab:CreateSection("Custom Movesets that use hero hunter.")
 
 local Button = Tab:CreateButton({
-    Name = "Dio Moveset (Use Hero Hunter)",
+    Name = "Nebora Hub - Key",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Medley-Taboritsky/RobloxScripting/refs/heads/main/DIO_Garou_TSB"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/499fa8eaaae391c6c3c77f2640811357.lua"))()
     end,
 })
 
 local Button = Tab:CreateButton({
-    Name = "Okarun Moveset (Use Hero Hunter)",
+    Name = "Reaper Hub - Key",
     Callback = function()
-loadstring(game:HttpGet"https://paste.ee/r/Pn4oj")()
-    end,
-})
-
--- Arcaura Moveset button
-local Button = Tab:CreateButton({
-    Name = "Arcaura Moveset (Use Hero Hunter)",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/ARCAURA.lua"))()
+loadstring(game:HttpGet("https://reaperscripts.com/loader.lua"))()
     end,
 })
 
 local Button = Tab:CreateButton({
-    Name = "Star Glitcher (Use Hero Hunter)",
+    Name = "Ather Hub - Key",
     Callback = function()
-loadstring(game:HttpGet("https://paste.ee/r/mmQkO"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2529a5f9dfddd5523ca4e22f21cceffa.lua"))()
     end,
 })
 
 local Button = Tab:CreateButton({
-    Name = "Diddy Moveset 💀 (Use Hero Hunter)",
+    Name = "Naoki Hub - Key",
     Callback = function()
-loadstring(game:HttpGet("https://paste.ee/r/gKC8V"))() 
+loadstring(game:HttpGet("https://naokihub.vercel.app",true))()
     end,
 })
 
 local Button = Tab:CreateButton({
-    Name = "Goku Moveset (Use Hero Hunter)",
+    Name = "Nyx Hub - Key",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/JayXSama/ray-makk/main/GOKUTSB"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/londnee/code/refs/heads/main/Fisch.lua"))()
     end,
 })
 
-local Button = Tab:CreateButton({
-    Name = "Kizaru Moveset (Use Hero Hunter)",
-    Callback = function()
-loadstring(game:HttpGet("https://paste.ee/r/NPnfk"))()
-    end,
-})
-
-local Button = Tab:CreateButton({
-    Name = "Humbled's GF Moveset (Use Hero Hunter)",
-    Callback = function()
-getgenv().color = Color3.new(1, 0, 0) -- customize colour vfx 
-
-loadstring(game:HttpGet("https://paste.ee/r/7FuWC"))()
-    end,
-})
-
-local Tab = Window:CreateTab("Deadly Ninja", "book")
-
-local Section = Tab:CreateSection("Custom Movesets that use Deadly Ninja..")
-
-local Button = Tab:CreateButton({
-    Name = "VOLTA Moveset (Use Sonic)",
-    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/VOLTA.lua"))()
-    end,
-})
-
-local Button = Tab:CreateButton({
-    Name = "Toji Moveset (Use Sonic)",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Medley-Taboritsky/RobloxScripting/refs/heads/main/DIO_Garou_TSB"))()
-    end,
-})
-
-
-
-local Tab = Window:CreateTab("Blade Master", "book")
-
-local Section = Tab:CreateSection("Custom Movesets that use Blade Master..")
-
-local Button = Tab:CreateButton({
-    Name = "Soul God Moveset (Use Atomic Samurai)",
-    Callback = function()
-loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Soul-God-Moveset-23392",true))()
-    end,
-})
-
-local Button = Tab:CreateButton({
-    Name = "Sukuna Moveset (Use Blade Master)",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/zyrask/Nexus-Base/main/atomic-blademaster%20to%20sukuna"))()
-    end,
-})
-
-local Tab = Window:CreateTab("Wild Psychic", "book")
-
-local Section = Tab:CreateSection("Custom Movesets that use Wild Psychic..")
-
-local Button = Tab:CreateButton({
-    Name = "Sans Moveset (Use Wild Psychic)",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Qaiddanial2904/ROBLOX-FREAKY-GOJO-REAL/refs/heads/main/SANS%20%5BREDACTED%5D"))()
-    end,
-})
-
-local Tab = Window:CreateTab("Any Moveset", "book")
-
-local Section = Tab:CreateSection("Custom Movesets that support any moveset being used..")
-
-local Button = Tab:CreateButton({
-    Name = "Sonic Moveset (Any Character?)",
-    Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/7V1mUBtQ"))()
-    end,
-})
-
-local Button = Tab:CreateButton({
-    Name = "APOPHENIA Moveset (Metal Bat And Any Character)",
-    Callback = function()
-getgenv().Music = false 
---Setting this to false usually fixes most executors
---also it helps load time a little bit
-getgenv().AttackQuality = 'High'
---Set to Low,High
-
- getgenv().ConstantSpeed = false
---if you want your speed to be constant
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/main/APOPHENIA.lua"))()
-    end,
-})
 
 local Tab = Window:CreateTab("Other Scripts", "circle-help")
 local Section = Tab:CreateSection("Other scripts you can load..")
@@ -309,7 +204,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/
 })
 
 local Button = Tab:CreateButton({
-    Name = "Infinite Yield",
+    Name = "Nameless Admin",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/refs/heads/main/Source.lua", true))()
     end,
